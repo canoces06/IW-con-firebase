@@ -1,0 +1,185 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+#dir {
+
+  margin-left: -19em !important;
+}
+
+/*primero agarramos el selector para controlar el comportamiento de las flechas para pasar hacia adelante o hacia atrás 
+en este caso lo que quería era ponerle una especie de degradado cuando paso el clic encima (hover over)*/
+
+#carouselExampleCaptions {
+  width: 60%;
+  position: relative;
+
+}
+
+
+.carousel-control-prev {
+
+  transition: opacity 0.5s ease;
+  background-color: #7e7e7e;
+  opacity: 0.2;
+  width: 7%;
+
+}
+
+
+.carousel-control-next {
+  transition: opacity 0.5s ease;
+  background-color: #7e7e7e;
+  opacity: 0.2;
+  width: 7%;
+}
+
+.carousel-control-prev:hover {
+  opacity: 0.7;
+}
+
+.carousel-control-next:hover {
+  opacity: 0.7;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+
+.carousel-caption {
+  background-color: #7e7e7e;
+  opacity: 0.7;
+
+}
+
+.form-control #searchInput {
+  width: 50%;
+}
+
+.input-group {
+  width: 55%;
+}
+
+#searchContainer {
+
+  background-color: rgba(133, 151, 145, 0.753);
+  width: 40%;
+  height: 180px;
+  opacity: 0.8;
+  size: 50%;
+
+}
+
+/* 
+Aquí cambié de recurso y lo hice con estilos en línea (inline styles) de React/JSX, que funcionan con la estructura "style = {{propiedades:'valores'}}
+#inputContainer #btnBuscar{
+  width: 80%!important;
+} */
+
+#AgregarContainer {
+  background-color: rgba(133, 151, 145, 0.753);
+  width: 40%;
+  height: 550px;
+  opacity: 0.8;
+  size: 50%;
+}
+
+#resultsContainer {
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

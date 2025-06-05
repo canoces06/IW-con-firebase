@@ -1,5 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+/* #navBarr{
+  color: rgba(109, 245, 199, 0.753);
+} */
+
+
 #dir {
 
   margin-left: -19em !important;
@@ -66,7 +71,7 @@ en este caso lo que quería era ponerle una especie de degradado cuando paso el 
 
 #searchContainer {
 
-  background-color: rgba(133, 151, 145, 0.753);
+  background-color: rgba(211, 202, 160, 0.712);
   width: 40%;
   height: 180px;
   opacity: 0.8;
@@ -81,7 +86,7 @@ Aquí cambié de recurso y lo hice con estilos en línea (inline styles) de Reac
 } */
 
 #AgregarContainer {
-  background-color: rgba(133, 151, 145, 0.753);
+  background-color: rgba(211, 202, 160, 0.712);
   width: 40%;
   height: 550px;
   opacity: 0.8;
@@ -92,6 +97,29 @@ Aquí cambié de recurso y lo hice con estilos en línea (inline styles) de Reac
   width: 40%;
 }
 
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9e0e0;
+}
+
+
+#root {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
 
 
 

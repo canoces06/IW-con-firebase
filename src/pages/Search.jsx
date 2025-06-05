@@ -63,7 +63,7 @@ const Search = () => {
                             className="btn btn-primary mt-3 w-100"
                             type="button"
                             id="btnBuscar"
-                            style={{ color: 'rgb(0, 0, 0)', backgroundColor: 'rgb(51, 136, 206)' }}
+                            style={{ color: 'rgb(255, 255, 255)', backgroundColor: 'rgb(158, 9, 9)' }}
                         >
                             Buscar
                         </button>

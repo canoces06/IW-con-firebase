@@ -79,7 +79,7 @@ const NewRestaurants = () => {
           <button
             type="submit"
             className="btn btn-success"
-            style={{ color: 'rgb(0, 0, 0)', width: '50%', backgroundColor: 'rgb(51, 136, 206)', marginTop: '15px' }}
+            style={{ color: 'rgb(0, 0, 0)', width: '50%', backgroundColor: 'rgba(58, 219, 184, 0.57)', marginTop: '15px' }}
           >
             Agregar Restaurante
           </button>

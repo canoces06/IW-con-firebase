@@ -1,9 +1,9 @@
 import {Link, BrowserRouter as Router, Routes, Route} from 'react-router'
 import './App.css'
 import NavBar from './IU/navBar'
-import Home from './pages/home'
-import Search from './pages/search'
-import NewRestaurants from './pages/newRestaurants'
+import Home from './pages/Home'
+import Search from './pages/Search'
+import NewRestaurants from './pages/NewRestaurants'
 import { useEffect } from 'react'
 import bootstrapBundleMin from 'bootstrap/dist/js/bootstrap.bundle.min'
 

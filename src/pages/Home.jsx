@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FirebaseFirestore } from '../firebase/config'; 
 import { collection, getDocs } from 'firebase/firestore'; 
 
+
 const Home = () => {
   const [restaurants, setRestaurants] = useState([]); 
 
